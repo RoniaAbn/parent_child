@@ -23,6 +23,12 @@ class Program
 
         Console.WriteLine();
 
+        // Create a cosmetic item
+        Cosmetic lipstick = new Cosmetic("Lipstick", 14.99, 100, "Red");
+        lipstick.DisplayCosmeticInfo();
+        
+        Console.WriteLine();
+
         
     }
 }
